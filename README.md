@@ -1,2 +1,2 @@
 # Heroku test
-[ ] setup git
+- [ ] setup git
