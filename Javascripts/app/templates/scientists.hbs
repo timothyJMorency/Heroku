@@ -1,0 +1,10 @@
+<h2>List Of Scientists</h2>
+{{input value=scientistName}}
+<button {{action "addSci"}}>add Scientist</button>
+<ul>
+    {{#each model as |scientist|}}
+        <li>
+            {{scientist}}
+        </li>
+    {{/each}}
+</ul>
